@@ -42,7 +42,7 @@ public class Main {
 
     static void makeStar(int r, int c, int size){
         if( size == 1 ){
-            starMap[c][r] = '*';
+            starMap[r][c] = '*';
             return;
         }
 
